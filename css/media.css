@@ -209,8 +209,6 @@ footer{
 }
 
 @media (max-width:480px){
-
-
   .banner .titulo{
     font-size:1.2rem;
   }
@@ -227,8 +225,6 @@ footer{
 .header-top span{
     margin-left: 6px;
 }
-
-
   .footer-formulario input{
     width: 250px;
   }
