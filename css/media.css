@@ -1,0 +1,236 @@
+@media (max-width:960px){
+    .header-menu img{
+        margin-left: 10px;
+    }
+    
+    .header-menu nav ul{
+        margin: auto 50px;
+    }
+}
+
+@media (max-width:840px){
+    
+    .nav-menu{
+        flex-wrap:wrap;
+        margin: auto 47px ;
+        display: inline-flex;
+    }
+    #menu{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #menuToggle
+    {
+      display: block;
+      position: relative;
+      z-index: 1;
+      -webkit-user-select: none;
+      user-select: none;
+    }
+    
+    #menuToggle a
+    {
+      text-decoration: none;
+      color: #4E2716;
+      transition: color 0.3s ease;
+    }
+    
+    #menuToggle a:hover
+    {
+      color: #FED100;
+    }
+    
+    
+    #menuToggle input
+    {
+      display: block;
+      width: 40px;
+      height: 32px;
+      position: absolute;
+      top: -7px;
+      left: -5px;
+      cursor: pointer;
+      
+      opacity: 0; /* hide this */
+      z-index: 2; /* and place it over the hamburger */
+      
+      -webkit-touch-callout: none;
+    }
+    #menuToggle span
+    {
+      display: block;
+      width: 33px;
+      height: 4px;
+      margin-bottom: 5px;
+      position: relative;
+      background: #4E2716;
+      border-radius: 3px;
+      z-index: 1;
+      transform-origin: 4px 0px;
+      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                  background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                  opacity 0.55s ease;
+    }
+    
+    #menuToggle span:first-child
+    {
+      transform-origin: 0% 0%;
+    }
+    
+    #menuToggle span:nth-last-child(2)
+    {
+      transform-origin: 0% 100%;
+    }
+    
+    #menuToggle input:checked ~ span
+    {
+      opacity: 1;
+      transform: rotate(45deg) translate(-2px, -1px);
+      background: #4E2716;
+    }
+    
+    #menuToggle input:checked ~ span:nth-last-child(3)
+    {
+      opacity: 0;
+      transform: rotate(0deg) scale(0.2, 0.2);
+    }
+    
+    #menuToggle input:checked ~ span:nth-last-child(2)
+    {
+      transform: rotate(-45deg) translate(0, -1px);
+    }
+    
+    #menu
+    {
+      position: absolute;
+      width: 260px;
+      margin: -600px 0 0 -180px;
+      padding-top: 140px;
+      background: #F7F7F7;
+      list-style-type: none;
+      -webkit-font-smoothing: antialiased;  
+      transform-origin: 0% 0%;
+      transform: none;
+      transition: transform 0.5s cubic-bezier(0.11,0.2,0.05,1.0);
+    }
+    
+    #menu li
+    {
+      padding: 20px;
+      font-size: 16px;
+    }
+    
+    #menuToggle input:checked ~ ul
+    {
+       transform: translate(0%, 100%);
+    }
+
+    
+}
+
+
+
+
+@media (max-width:960px){
+  .footer-contato{
+    margin-left: 75px;
+  }
+
+  .footer-formulario input{
+    width: 350px;
+  }
+
+  .footer-formulario textarea{
+    width: 350px;
+  }
+  .footer-formulario{
+    margin-right: 75px;
+  }
+}
+
+@media (max-width:840px){
+  footer{
+    height: 490px;
+  }
+  .footer-formulario input{
+    width: 300px;
+  }
+  .footer-formulario textarea{
+    width: 300px;
+  }
+  .footer-contato{
+    margin-left: 50px;
+  }
+  .footer-formulario{
+    margin-right: 50px;
+  }
+}
+
+@media (max-width:720px){
+  
+footer{
+    height: 100%;
+}
+.container-contato{
+  flex-direction: column-reverse;
+}
+.footer-contato{
+    display: flex;
+    margin: 40px auto;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-contato h1{
+  margin-bottom: 10px;
+}
+
+.lista-contato li{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.lista-contato li:last-child{
+    align-items:center;
+    margin-top: 20px;
+}
+.lista-contato span{
+  margin-top: 10px;
+  text-align: center;
+}
+.rede-social img{
+  margin-top: 20px;
+}
+.footer-formulario{
+    margin: 0 auto;
+}
+
+
+}
+
+@media (max-width:480px){
+
+  
+.header-top ul{
+    margin-left: 20px;
+}
+.header-top li{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.header-top span{
+    margin-left: 6px;
+}
+
+
+  .footer-formulario input{
+    width: 250px;
+  }
+  .footer-formulario textarea{
+    width: 250px;
+  }
+
+
+}
