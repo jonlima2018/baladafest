@@ -210,6 +210,10 @@ footer{
 
 @media (max-width:480px){
 
+
+  .banner .titulo{
+    font-size:1.2rem;
+  }
   
 .header-top ul{
     margin-left: 20px;
