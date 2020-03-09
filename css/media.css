@@ -1,3 +1,27 @@
+@media (max-width:480px){
+  .banner .titulo{
+    font-size:1.2rem;
+  }
+  .header-top ul{
+    margin-left: 20px;
+  }
+  .header-top li{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+  }
+  .header-top span{
+    margin-left: 6px;
+  }
+  .footer-formulario input{
+    width: 250px;
+  }
+  .footer-formulario textarea{
+    width: 250px;
+  }
+}
+
 @media (max-width:960px){
     .header-menu img{
         margin-left: 10px;
@@ -207,29 +231,3 @@ footer{
 
 }
 
-@media (max-width:480px){
-  .banner .titulo{
-    font-size:1.2rem;
-  }
-  
-.header-top ul{
-    margin-left: 20px;
-}
-.header-top li{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
-}
-.header-top span{
-    margin-left: 6px;
-}
-  .footer-formulario input{
-    width: 250px;
-  }
-  .footer-formulario textarea{
-    width: 250px;
-  }
-
-
-}
