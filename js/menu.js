@@ -15,7 +15,6 @@
 
     // evento para fechar  menu clicando fora
     document.documentElement.onclick = ((event) => {
-        console.log(event.target);
         if(event.target != document.querySelector('#menuToggle input')){
             document.querySelector('#menuToggle input').checked = false;
         }
