@@ -195,53 +195,8 @@ html{
     width: 800px;
 }
 
-@media (max-width:720px){
-    
-    .container-sobre{
-        display: flex;
-    }
-    .container-amarelo{
-        width: 300px; 
-    }
-    .mvv li{
-        display: flex;
-        align-content: center;
-        justify-content: center;   
-    }
-    .mvv p{
-        text-align: center;
-    }    
-}
 
-@media (max-width:560px){
-    .container-sobre{
-        display: inline-block;
-    }
-    .container-amarelo{
-        width: 100%; 
-    }
-    .container-amarelo p{
-        font-size: 1.4rem;
-    }
-    .mvv{
-        display: block;
-        margin: 30px auto 0px;
-        width: 100%;
-    }
-    .mvv li{
-        display: flex;
-        justify-content: center;
-        align-items: center;   
-    }
-    .mvv p{
-        text-align: center;
-    }
-    .citacao p{
-        font-size: 1.4rem;
-        width: 100%;
-    }
-    
-}
+
 
 /* Section Serviços */
 .subtitulo-servicos{
@@ -269,43 +224,6 @@ html{
     font-size: 1.25rem;
     margin-left: 15px;
 }
-
-@media (max-width:720px){
- 
-    .subtitulo-servicos{
-        text-align: center;
-        font-size: 1.5rem;
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .painel-servicos{
-        display: block;
-    }
-    
-    .painel-servicos li{
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-    }
-    .painel-servicos p{
-        display: flex;
-        justify-content: center;
-    }
-
-}
-
-@media (max-width:480px){
-    .painel-servicos li{
-        white-space: wrap;
-        text-align: center;
-    }
-    .painel-servicos p{
-        display: none;
-        
-    }
-}
-
 
 /* Section Contato */
 footer{

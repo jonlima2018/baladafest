@@ -2,6 +2,11 @@
   .banner .titulo{
     font-size:1.2rem;
   }
+
+  .header-menu img{
+    width: 150px;
+  }
+
   .header-top ul{
     margin-left: 20px;
   }
@@ -20,6 +25,16 @@
   .footer-formulario textarea{
     width: 250px;
   }
+
+  .painel-servicos li{
+    white-space: wrap;
+    text-align: center;
+  }
+  .painel-servicos p{
+      display: none;
+      
+  }
+
 }
 
 @media (max-width:960px){
@@ -191,6 +206,42 @@
 }
 
 @media (max-width:720px){
+  .container-sobre{
+    display: flex;
+  }
+  .container-amarelo{
+      width: 300px; 
+  }
+  .mvv li{
+      display: flex;
+      align-content: center;
+      justify-content: center;   
+  }
+  .mvv p{
+      text-align: center;
+  }
+
+  .subtitulo-servicos{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.painel-servicos{
+    display: block;
+}
+
+.painel-servicos li{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.painel-servicos p{
+    display: flex;
+    justify-content: center;
+}
+  
   
 footer{
     height: 100%;
@@ -231,3 +282,32 @@ footer{
 
 }
 
+@media (max-width:560px){
+  .container-sobre{
+      display: inline-block;
+  }
+  .container-amarelo{
+      width: 100%; 
+  }
+  .container-amarelo p{
+      font-size: 1.4rem;
+  }
+  .mvv{
+      display: block;
+      margin: 30px auto 0px;
+      width: 100%;
+  }
+  .mvv li{
+      display: flex;
+      justify-content: center;
+      align-items: center;   
+  }
+  .mvv p{
+      text-align: center;
+  }
+  .citacao p{
+      font-size: 1.4rem;
+      width: 100%;
+  }
+  
+}
