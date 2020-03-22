@@ -156,7 +156,9 @@ html{
     width: 40vw;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
+    opacity: 0;
+    transform: translate3d(-280px,0,0);
 }
 .container-amarelo p{
     padding: 40px;
@@ -164,8 +166,23 @@ html{
     text-align: center;
 }
 
+.ativo .container-amarelo{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+    transition: 1s;
+}
+
+.ativo .mvv{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+    transition: 1s;
+}
+
 .mvv{
     width: 40vw;
+    opacity: 0;
+    transform: translate3d(400px,0,0);
+
 }
 .mvv li{
     font-size: 1.5rem;
@@ -177,6 +194,11 @@ html{
     font-size: 1.25rem;
 }
 
+.ativo .citacao{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+    transition: 2s;
+}
 
 .citacao{
     margin-top: 60px;
@@ -185,6 +207,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0;
 }
 
 .citacao p{
@@ -204,6 +227,16 @@ html{
     font-size: 1.5rem;
     width: 550px;
     margin: 0 auto;
+    
+}
+
+.section-servicos{
+    opacity: 0;
+}
+
+.section-servicos.ativo{
+    opacity: 1;
+    transition: 2s;
 }
 
 .painel-servicos{
@@ -225,11 +258,21 @@ html{
     margin-left: 15px;
 }
 
+.section-galeria{
+    opacity: 0;
+}
+
+.section-galeria.ativo{
+    opacity: 1;
+    transition: 2s;
+}
+
 .div-galeria{
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
+
 
 /* Section Contato */
 footer{
