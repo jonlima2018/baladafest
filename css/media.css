@@ -289,6 +289,8 @@ footer{
   }
   .container-amarelo{
       width: 100%; 
+      opacity: 1;
+
   }
   .container-amarelo p{
       font-size: 1.4rem;
@@ -297,6 +299,8 @@ footer{
       display: block;
       margin: 30px auto 0px;
       width: 100%;
+      opacity: 1;
+
   }
   .mvv li{
       display: flex;
