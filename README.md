@@ -2,7 +2,7 @@
 
 Site em desenvolvimento
 
-Desenvolvido o site single page  
+Desenvolvido uma single page  
 
 
 Em desenvolvimento paginas de login e upload para CMS
