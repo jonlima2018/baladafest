@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload de imagens</title>
+    <link rel="stylesheet" href="css/upload.css" />
+  </head>
+  <body>
+    
+
+    <div class="container">
+      <form class="box-upload">
+        <input
+          type="file"
+          id="file"
+          accept=".png, .jpg, .jpeg"
+          class="inputfile"
+        />
+        <div class="labels">
+          <label for="file">Selecione uma imagem...</label>
+        </div>
+        <div class="box-button">
+            <button type="submit" id="upload">Upload</button>
+        </div>
+      </form>
+     </div>
+  </body>
+
+  <script src="js/upload.js"></script>
+</html>
